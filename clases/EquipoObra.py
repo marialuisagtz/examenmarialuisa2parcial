@@ -4,18 +4,17 @@ class EquipoObra:
         self.identificador= identificador
         self.consumoCombustible= consumoCombustible
         
-    def iniciar(self):
-        self.estado= "operativo"
+    def __str__(self):
+         return self.nombre +" "+ self.identificador+ " " + str(self.consumoCombustible)+ " "+
         
-    def detener(self):
-        self.estado= "detenido"
+    def activar(self):
+        print("activando")
+        
+    def detener(self)
+        print("deteniendo")
         
     def mostrarInformacion(self):
-        print("nombre", self.nombre)
-        print("identificador", self.identificador)
-        print("Consumo del combustible", self.consumoCombustible)
-        print("Operativo", self.estado)
-        print("detenido", self.estado)
+        print("mostrando informaciom")
         
     
         

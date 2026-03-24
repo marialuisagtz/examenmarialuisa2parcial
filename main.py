@@ -6,7 +6,7 @@ def main():
    print()
    print(mezclar)
    mezclar()
-   vibrar()
+   vibrar.
     
    print() 
    print(vibrar)
